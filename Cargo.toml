@@ -1,0 +1,12 @@
+[package]
+name = "apple"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+swift-rs = "1.0.3"
+
+[build-dependencies]
+swift-rs = { version = "1.0.3", features = ["build"] }
